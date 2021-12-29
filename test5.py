@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup #BeautifulSoup는 HTML 페이지의 웹소스를 쉽게 파싱 할 수 있도록 도와주는 라이브러리입니다.
 import telegram
 
-bot = telegram.Bot(token='1787374542:AAHTkUuO3qKc5HlczhsNwRkhYf1pycuncIY')
+bot = telegram.Bot(token='bot token')
 
 req = requests.get('https://web.dongguk.ac.kr/mbs/kr/jsp/board/list_all.jsp?boardId=0&id=kr_070101000000')
 html = req.text

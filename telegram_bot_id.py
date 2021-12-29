@@ -1,7 +1,7 @@
 import telegram
 
 """
-token = '1787374542:AAHTkUuO3qKc5HlczhsNwRkhYf1pycuncIY'
+token = 'bot token'
 bot = telegram.Bot(token=token)
 
 #생성한 텔레그램 봇 정보

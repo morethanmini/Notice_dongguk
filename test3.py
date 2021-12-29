@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import telegram
 
-bot = telegram.Bot(token='1787374542:AAHTkUuO3qKc5HlczhsNwRkhYf1pycuncIY')
+bot = telegram.Bot(token='bot token')
 
 
 req = requests.get('https://web.dongguk.ac.kr/mbs/kr/jsp/board/list_all.jsp?boardId=0&id=kr_070101000000')

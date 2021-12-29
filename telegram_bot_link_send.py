@@ -8,7 +8,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 search_word = '삼성전자'
 
 # 텔레그램 봇 생성
-token = '1787374542:AAHTkUuO3qKc5HlczhsNwRkhYf1pycuncIY'
+token = 'bot token'
 bot = telegram.Bot(token=token)
 # 스케쥴러 생성
 sched = BlockingScheduler()

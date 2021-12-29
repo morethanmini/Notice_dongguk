@@ -5,7 +5,7 @@ import time
 import telegram
 import datetime
 
-bot = telegram.Bot(token='1787374542:AAHTkUuO3qKc5HlczhsNwRkhYf1pycuncIY')
+bot = telegram.Bot(token='bot token')
 
 if __name__ == '__main__':
     latest_title = 0
