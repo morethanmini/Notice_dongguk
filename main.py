@@ -1,3 +1,4 @@
+#동국 공지사항 알리미
 import requests
 from bs4 import BeautifulSoup
 import time
